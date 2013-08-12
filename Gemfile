@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
 
 ruby '2.0.0'
+ruby '1.9.3'
 group :production do
 	gem 'pg'
 end
